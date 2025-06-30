@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Indian Fantasy Cricket Team Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1><b> Fantasy Cricket Team Builder</b></h1>
+  </header>
+
+  <main>
+    <section id="player-section">
+      <h2>Available Players</h2>
+      <div id="player-list"></div>
+      
+      
+    </section>
+
+    <section id="team-section">
+      <h2>Your Team (Max 11)</h2>
+      <ul id="selected-team"></ul>
+      <p><strong>Credits Left:</strong> <span id="credits-left">100</span></p>
+      <p><strong>Total Players:</strong> <span id="player-count">0</span>/11</p>
+      <div id="captain-section">
+        <label>Captain:</label>
+        <select id="captain-select"></select>
+
+        <label>Vice Captain:</label>
+        <select id="vice-captain-select"></select>
+      </div>
+      <button onclick="submitTeam()">Submit Team</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with ❤️ for Cricket Fans</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
