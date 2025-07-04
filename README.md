@@ -1,6 +1,6 @@
 # Fantasy-Cricket-Team
 
-# 🏏 Fantasy Cricket Team Builder Web App
+# Fantasy Cricket Team Builder Website
 
 This is a simple and interactive  Fantasy Cricket Team Selection website built using HTML, CSS, and JavaScript. Users can select players from a pool of 100+ Indian cricketers, assign a captain and vice-captain, and submit their team based on a credit limit.
 
@@ -21,5 +21,7 @@ fantasy-cricket
 ├── style.css # Styling for the website
 ├── script.js # JavaScript logic
 
+## Getting Started
 
+# Clone the repository
 
