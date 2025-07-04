@@ -23,5 +23,7 @@ fantasy-cricket
 
 ## Getting Started
 
-# Clone the repository
+## Clone the repository
 
+-git clone https://github.com/Sumit-Singh0204/Fantasy-Cricket-Team.git
+-cd cricket
