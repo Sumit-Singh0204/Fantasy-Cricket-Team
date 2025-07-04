@@ -1,13 +1,13 @@
 body {
   font-family: 'Segoe UI', sans-serif;
-  margin: 0;
-  padding: 0;
+  margin:0;
+  padding:0;
   background: #f3f9f4;
   color: #333;
 }
 
 header, footer {
-  background: #0095ff;
+  background-color:#c27a79;
   color: rgb(0, 0, 0);
   text-align: center;
   padding: 1em;
@@ -18,12 +18,14 @@ main {
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 20px;
+  background-color:#75aaf4;
+  
 }
 
 section {
   width: 45%;
   margin-top: 20px;
-  background: white;
+  background:rgb(236, 227, 227);
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 0 5px rgba(0,0,0,0.5);
@@ -39,20 +41,28 @@ section {
   display: flex;
   align-items: center;
   gap: 10px;
+ 
 }
 
 
 #player-list div {
   margin-bottom: 10px;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 3px solid #ccc;
+  border-radius:2%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+#player-list div:hover{
+  background-color:#89b4eb;
+  transition-property: all;
+  font-size:x-large;
+}
+
 button {
-  background: #24ed01;
+  background: #d96500;
   color: white;
   border: none;
   padding: 8px 12px;
@@ -61,7 +71,11 @@ button {
 }
 
 button:hover {
-  background: #005b44;
+  background: #7ee827;
+  transition-property:all;
+  font-size: medium;
+  
+  
 }
 
 

@@ -168,26 +168,6 @@ function updateSelectedTeam() {
 }
 
 
-//function updateSelectedTeam() {
-//  selectedTeamUl.innerHTML = "";
-
-//  selectedPlayers.forEach((p, index) => {
-//    const li = document.createElement("li");
-//    li.innerHTML = `
-//      <div class="player-info">
-//        <img src="${p.img || 'cricket/default-player.jpg'}" alt="${p.name}" class="player-img">
-//        <span>${p.name} - ${p.role} (${p.credit} cr)</span>
-//      </div>
-//      <button onclick="removePlayer(${index})" class="remove-btn">Remove</button>
-//    `;
-//    selectedTeamUl.appendChild(li);
-//  });
-
-//  creditsLeftSpan.textContent = creditsLeft.toFixed(1);
-//  playerCountSpan.textContent = selectedPlayers.length;
-
-//  renderCaptainOptions();
-//}
 function renderPlayers() {
   playerListDiv.innerHTML = "";
   players.forEach((p, index) => {
@@ -205,22 +185,8 @@ function renderPlayers() {
   });
 }
 
-//function renderCaptainOptions() {
-// captainSelect.innerHTML = "";
-// viceCaptainSelect.innerHTML = "";
 
-// selectedPlayers.forEach(p => {
-// const option1 = document.createElement("option");
-//option1.value = p.name;
-//  option1.textContent = p.name;
-//   captainSelect.appendChild(option1);
-//
-//  const option2 = document.createElement("option");
-//  option2.value = p.name;
-//   option2.textContent = p.name;
-//    viceCaptainSelect.appendChild(option2);
-//  });
-//}
+
 
 function submitTeam() {
   if (selectedPlayers.length !== 11) {
